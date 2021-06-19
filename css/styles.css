@@ -41,7 +41,15 @@ body {
 
 .menu-link,
 .email-link,
-.tel-link,
+.tel-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
 .footer-email-link,
 .footer-tel-link,
 .address {
@@ -212,7 +220,7 @@ body {
 
 .portfolio-item-tipe {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
 }
