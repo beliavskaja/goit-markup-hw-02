@@ -50,6 +50,11 @@ body {
   color: var(--main-text-color);
 }
 
+.email-link,
+.tel-link {
+  color: #757575;
+}
+
 .footer-email-link,
 .footer-tel-link,
 .address {
@@ -75,6 +80,15 @@ body {
   color: var(--accent-color);
 }
 
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
 /* Main page */
 /* Hero section */
 .hero-title {
@@ -189,6 +203,10 @@ body {
 /* Portfolio page */
 /* Filter buttons */
 .filter-button {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
